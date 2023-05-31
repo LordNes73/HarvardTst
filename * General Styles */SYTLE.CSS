@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 120px;
+  height: auto;
+}
+
+header form {
+  margin: 0 20px;
+}
+
+header input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+header button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+header a {
+  margin-left: 10px;
+  color: #4285f4;
+  text-decoration: none;
+}
+
+/* Main Styles */
+main {
+  padding: 20px;
+}
+
+main a {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
